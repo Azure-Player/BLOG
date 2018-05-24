@@ -1,0 +1,4 @@
+﻿CREATE PARTITION SCHEME [PS_Date]
+    AS PARTITION [PF_Date]
+    ALL TO ([PRIMARY])
+

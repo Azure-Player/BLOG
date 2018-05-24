@@ -1,0 +1,85 @@
+10.05.2018 01:50:40	This log contains information about the import schema operation into project 'Northwind' on computer 'D-WIDERA2' by user 'dwidera'.
+10.05.2018 01:50:40	Import of database schema has started.
+10.05.2018 01:50:48	Gathering database credentials
+10.05.2018 01:50:48	Gathering database options
+10.05.2018 01:50:48	Gathering generic database scoped configuration option
+10.05.2018 01:50:48	Gathering users
+10.05.2018 01:50:48	Gathering roles
+10.05.2018 01:50:48	Gathering application roles
+10.05.2018 01:50:48	Gathering role memberships
+10.05.2018 01:50:48	Gathering filegroups
+10.05.2018 01:50:48	Gathering full-text catalogs
+10.05.2018 01:50:48	Gathering assemblies
+10.05.2018 01:50:48	Gathering certificates
+10.05.2018 01:50:48	Gathering asymmetric keys
+10.05.2018 01:50:48	Gathering symmetric keys
+10.05.2018 01:50:48	Gathering encrypted symmetric keys
+10.05.2018 01:50:48	Gathering schemas
+10.05.2018 01:50:48	Gathering XML schema collections
+10.05.2018 01:50:48	Gathering user-defined data types
+10.05.2018 01:50:48	Gathering user-defined types
+10.05.2018 01:50:48	Gathering table types
+10.05.2018 01:50:48	Gathering unique keys for table types
+10.05.2018 01:50:48	Gathering primary keys for table types
+10.05.2018 01:50:48	Gathering indexes for table types
+10.05.2018 01:50:48	Gathering check constraints for table types
+10.05.2018 01:50:48	Gathering default constraints for table types
+10.05.2018 01:50:48	Gathering partition functions
+10.05.2018 01:50:48	Gathering partition schemes
+10.05.2018 01:50:48	Gathering functions
+10.05.2018 01:50:48	Gathering encrypted functions
+10.05.2018 01:50:48	Gathering aggregates
+10.05.2018 01:50:48	Gathering procedures
+10.05.2018 01:50:48	Gathering encrypted procedures
+10.05.2018 01:50:48	Gathering tables
+10.05.2018 01:50:48	Gathering primary keys
+10.05.2018 01:50:48	Gathering unique constraints
+10.05.2018 01:50:48	Gathering foreign keys
+10.05.2018 01:50:48	Gathering default constraints
+10.05.2018 01:50:48	Gathering check constraints
+10.05.2018 01:50:48	Gathering views
+10.05.2018 01:50:48	Gathering encrypted views
+10.05.2018 01:50:48	Gathering indexes
+10.05.2018 01:50:48	Gathering statistics
+10.05.2018 01:50:48	Gathering full-text index stoplists
+10.05.2018 01:50:48	Gathering search property lists
+10.05.2018 01:50:48	Gathering search properties
+10.05.2018 01:50:48	Gathering full-text indexes
+10.05.2018 01:50:48	Gathering column store indexes
+10.05.2018 01:50:48	Gathering spatial indexes
+10.05.2018 01:50:48	Gathering XML indexes
+10.05.2018 01:50:48	Gathering Selective XML indexes
+10.05.2018 01:50:48	Gathering encrypted triggers
+10.05.2018 01:50:48	Gathering triggers
+10.05.2018 01:50:48	Gathering encrypted and clr ddl triggers
+10.05.2018 01:50:48	Gathering ddl triggers
+10.05.2018 01:50:49	Gathering synonyms
+10.05.2018 01:50:49	Gathering defaults
+10.05.2018 01:50:49	Gathering data constraint uddt bindings
+10.05.2018 01:50:49	Gathering rules
+10.05.2018 01:50:49	Gathering data constraint uddt bindings
+10.05.2018 01:50:49	Gathering message types
+10.05.2018 01:50:49	Gathering queues
+10.05.2018 01:50:49	Gathering contracts
+10.05.2018 01:50:49	Gathering services
+10.05.2018 01:50:49	Gathering event notifications
+10.05.2018 01:50:49	Gathering remote service bindings
+10.05.2018 01:50:49	Gathering broker priorities
+10.05.2018 01:50:49	Gathering signatures
+10.05.2018 01:50:49	Gathering data compression options
+10.05.2018 01:50:49	Gathering sequence types
+10.05.2018 01:50:49	Gathering security policies
+10.05.2018 01:50:49	Gather column encryption keys
+10.05.2018 01:50:49	Gathering column master keys
+10.05.2018 01:50:49	Gathering external data sources
+10.05.2018 01:50:49	Gathering external file formats
+10.05.2018 01:50:49	Gathering external tables
+10.05.2018 01:50:49	Gathering extended properties
+10.05.2018 01:50:49	Gathering credentials
+10.05.2018 01:50:49	Gathering logins
+10.05.2018 01:50:49	Gathering server audits
+10.05.2018 01:50:49	Scanning project for duplicate elements
+10.05.2018 01:50:49	Finished duplicate element processing
+10.05.2018 01:50:49	Finished importing database.
+10.05.2018 01:50:49	A summary of the import was saved to the following location: D:\SQLDay 2018 Local Repo\Step-by-step\StepByStep\Northwind\Import Schema Logs\Northwind_20180509115040.log
+10.05.2018 01:50:49	Click Finish to continue...

@@ -1,0 +1,10 @@
+11.05.2018 23:42:06	This log contains information about the import schema operation into project 'WideWorldImportersDW' on computer 'D-WIDERA2' by user 'dwidera'.
+11.05.2018 23:42:06	Deserializing model
+11.05.2018 23:42:07	Resolving model
+11.05.2018 23:42:08	Visiting imported model for types
+11.05.2018 23:42:09	Scanning project for duplicate elements
+11.05.2018 23:42:09	Finished duplicate element processing
+11.05.2018 23:42:11	Processing extra files
+11.05.2018 23:42:11	Finished importing Data-tier Application file.
+11.05.2018 23:42:11	A summary of the import was saved to the following location: D:\SQLDay 2018 Local Repo\module3\Module3\WideWorldImportersDW\Import Schema Logs\WideWorldImportersDW_20180511094206.log
+11.05.2018 23:42:11	Click Finish to continue...

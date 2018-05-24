@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{BF32CCC3-4759-4B95-B26D-95D5963378C6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\WideWorldImporters.dacpac = ..\..\WideWorldImporters.dacpac
+		..\..\WideWorldImportersDW.dacpac = ..\..\WideWorldImportersDW.dacpac
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "batches", "batches", "{AB3EAFFF-C113-4653-BBD5-0DAC6A67FE6C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WideWorldImporters", "WideWorldImporters\WideWorldImporters.sqlproj", "{9B031470-77F0-41F4-8689-3685846D45E8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WideWorldImportersDW", "WideWorldImportersDW\WideWorldImportersDW.sqlproj", "{E70880AB-56EB-415F-A0CB-E25B7FF27883}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WideWorldImportersDW.Prerequisites", "WideWorldImportersDW.Prerequisites\WideWorldImportersDW.Prerequisites.sqlproj", "{07362B0E-B243-4162-9088-92BB0FCB8EC8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WideWorldImportersDW.DBTests", "WideWorldImportersDW.DBTests\WideWorldImportersDW.DBTests.sqlproj", "{A275C639-FF6E-4E52-A771-A1F29C4B58C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B031470-77F0-41F4-8689-3685846D45E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B031470-77F0-41F4-8689-3685846D45E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B031470-77F0-41F4-8689-3685846D45E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9B031470-77F0-41F4-8689-3685846D45E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B031470-77F0-41F4-8689-3685846D45E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B031470-77F0-41F4-8689-3685846D45E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E70880AB-56EB-415F-A0CB-E25B7FF27883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70880AB-56EB-415F-A0CB-E25B7FF27883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70880AB-56EB-415F-A0CB-E25B7FF27883}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E70880AB-56EB-415F-A0CB-E25B7FF27883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70880AB-56EB-415F-A0CB-E25B7FF27883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70880AB-56EB-415F-A0CB-E25B7FF27883}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{07362B0E-B243-4162-9088-92BB0FCB8EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07362B0E-B243-4162-9088-92BB0FCB8EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07362B0E-B243-4162-9088-92BB0FCB8EC8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07362B0E-B243-4162-9088-92BB0FCB8EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07362B0E-B243-4162-9088-92BB0FCB8EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07362B0E-B243-4162-9088-92BB0FCB8EC8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A275C639-FF6E-4E52-A771-A1F29C4B58C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A275C639-FF6E-4E52-A771-A1F29C4B58C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A275C639-FF6E-4E52-A771-A1F29C4B58C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A275C639-FF6E-4E52-A771-A1F29C4B58C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A275C639-FF6E-4E52-A771-A1F29C4B58C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A275C639-FF6E-4E52-A771-A1F29C4B58C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30F44DEB-135D-42A8-8A28-A14F3BFE2337}
+	EndGlobalSection
+EndGlobal

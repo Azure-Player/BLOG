@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Required elements-->
+    <id>SQLPlayer_WideWorldImporters</id>
+    <version></version>
+    <description>Nuget specification for WWI for demo on SQLDay 2018 workshop.</description>
+    <authors>SQLPlayer</authors>
+  </metadata>
+  <!-- Optional 'files' node -->
+</package>

@@ -1,0 +1,1 @@
+﻿CREATE LOGIN [Portal] WITH PASSWORD = '@l@MAK0TTa'
