@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="demo">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):KNMSI10\kamiln">
+          <Created>2018-05-09T19:21:28.1196599+01:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>WideWorldImportersDW</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sqlday18.database.windows.net:kamil">
+          <Created>2018-05-16T13:58:05.0630606+01:00</Created>
+          <Type>SQL</Type>
+          <Server>sqlday18.database.windows.net</Server>
+          <UserName>kamil</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>dwh</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00-Provision.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>00-Provision.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01-SourceStorage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>01-SourceStorage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09---------DISTRIBUTION------.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>09---------DISTRIBUTION------.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10-RoundRobin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>10-RoundRobin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11-HASH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>11-HASH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12-Replicated.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>12-Replicated.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19----------------------.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>19----------------------.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20-DimDate-stats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20-DimDate-stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="39--------- WWI ---------.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>39--------- WWI ---------.sql</FullPath>
+        </FileNode>
+        <FileNode Name="40-WWI-provision.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>40-WWI-provision.sql</FullPath>
+        </FileNode>
+        <FileNode Name="41-create-tables.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>41-create-tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="42-Import-Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>42-Import-Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="43-Replicated-tables.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>43-Replicated-tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="49--------- DMW --------.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>49--------- DMW --------.sql</FullPath>
+        </FileNode>
+        <FileNode Name="50-info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>50-info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="50-monitor-loads.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>50-monitor-loads.sql</FullPath>
+        </FileNode>
+        <FileNode Name="51-microsoft-views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>51-microsoft-views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="52-prc_workload_management_by_DWU.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>52-prc_workload_management_by_DWU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="60-monitor.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>60-monitor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="61-monitor-tempdb.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>61-monitor-tempdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="62-monitor-memory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>62-monitor-memory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="63-monitor-transaction-log.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>63-monitor-transaction-log.sql</FullPath>
+        </FileNode>
+        <FileNode Name="64-Columnstore-Catalog-Views.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>64-Columnstore-Catalog-Views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="70-------IMPORT---------------.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>70-------IMPORT---------------.sql</FullPath>
+        </FileNode>
+        <FileNode Name="71-Load-fact_Order.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>71-Load-fact_Order.sql</FullPath>
+        </FileNode>
+        <FileNode Name="72-votes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>72-votes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="74-votes2-zip----error.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>74-votes2-zip----error.sql</FullPath>
+        </FileNode>
+        <FileNode Name="75-nyctaxi.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>75-nyctaxi.sql</FullPath>
+        </FileNode>
+        <FileNode Name="76-nyctaxi-multiple-files.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>76-nyctaxi-multiple-files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="77-nyctaxi-multiple-compressed-files.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>77-nyctaxi-multiple-compressed-files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="78-nyctaxi-multiple-uncompressed-files.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlday18.database.windows.net:False:kamil</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlday18.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>kamil</AssociatedConnUserName>
+          <FullPath>78-nyctaxi-multiple-uncompressed-files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="79-monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>79-monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="80-Copy-entire-table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>80-Copy-entire-table.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
